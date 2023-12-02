@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h6 style="font-size: 16px"><span>Login</span>& <span>Sign Up</span></h6>
+      <input type="checkbox" name="reg-log" id="reg-log" class="checkbox" />
+      <label for="reg-log" id="line">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </label>
+      <div class="card-3d-wrap">
+        <div class="card-3d-wrapper">
+          <div class="card-front">
+            <div class="center-wrap">
+              <h4>Login</h4>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="logemail"
+                  id="logemail"
+                  class="form-style"
+                  placeholder="Email"
+                />
+                <i class="fa-solid fa-envelope" id="lgenvelope"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  name="logepass"
+                  id="logepass"
+                  class="form-style"
+                  placeholder="Password"
+                />
+                <i class="fa-solid fa-lock" id="lglock"></i>
+              </div>
+              <button>Submit</button>
+              <p>Don't Have Account? <a href="#">Register</a></p>
+            </div>
+          </div>
+          <div class="card-back">
+            <div class="center-wrap">
+              <h4>Register</h4>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="logname"
+                  id="logname"
+                  class="form-style"
+                  placeholder="Name"
+                />
+                <i class="fa-solid fa-user" id="rguser"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="logemail"
+                  id="logemail"
+                  class="form-style"
+                  placeholder="Email"
+                />
+                <i class="fa-solid fa-envelope" id="rgenvelope"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  name="logepass"
+                  id="logepass"
+                  class="form-style"
+                  placeholder="Password"
+                />
+                <i class="fa-solid fa-lock" id="rglock"></i>
+              </div>
+              <button>Submit</button>
+              <p>Already Have Account? <a href="#">Login</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
